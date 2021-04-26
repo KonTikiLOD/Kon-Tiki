@@ -328,17 +328,6 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 82px;
 }
 
-#hero .carousel-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  position: relative;
-  height: 70vh;
-  padding-top: 60px;
-}
-
 #hero h2 {
   color: #fff;
   margin-bottom: 30px;
@@ -354,17 +343,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-#hero .carousel-control-prev, #hero .carousel-control-next {
-  width: 10%;
-}
-
-#hero .carousel-control-next-icon, #hero .carousel-control-prev-icon {
-  background: none;
-  font-size: 48px;
-  line-height: 1;
-  width: auto;
-  height: auto;
-}
 
 #hero .btn-get-started {
   font-family: "Raleway", sans-serif;
@@ -389,23 +367,6 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
-@media (min-width: 1024px) {
-  #hero p {
-    width: 60%;
-  }
-  #hero .carousel-control-prev, #hero .carousel-control-next {
-    width: 5%;
-  }
-}
-
-@media (max-width: 768px) {
-  #hero .carousel-container {
-    height: 90vh;
-  }
-  #hero h2 {
-    font-size: 28px;
-  }
-}
 
 .hero-waves {
   display: block;
