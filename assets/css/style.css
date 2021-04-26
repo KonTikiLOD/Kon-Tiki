@@ -321,10 +321,11 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  overflow: hidden;
+  height: 100vh;
+  background: url("../img/raft.jpg") top center no-repeat;
+  background-size: cover;
   position: relative;
-  background: linear-gradient(0deg, #2a2c39 0%, #33364a 100%);
-  padding: 0;
+  padding-top: 82px;
 }
 
 #hero .carousel-container {
