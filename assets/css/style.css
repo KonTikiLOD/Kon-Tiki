@@ -380,6 +380,7 @@ h1, h2, h3, h4, h5, h6 {
   animation: move-forever1 10s linear infinite;
   -webkit-animation-delay: -2s;
   animation-delay: -2s;
+  color: #6495ED;
 }
 
 .wave2 use {
@@ -387,6 +388,7 @@ h1, h2, h3, h4, h5, h6 {
   animation: move-forever2 8s linear infinite;
   -webkit-animation-delay: -2s;
   animation-delay: -2s;
+  color: #ADD8E6;
 }
 
 .wave3 use {
@@ -394,6 +396,7 @@ h1, h2, h3, h4, h5, h6 {
   animation: move-forever3 6s linear infinite;
   -webkit-animation-delay: -2s;
   animation-delay: -2s;
+  color: #FFDAB9;
 }
 
 @-webkit-keyframes move-forever1 {
