@@ -694,9 +694,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# contents
 --------------------------------------------------------------*/
-.services .icon-box {
+.contents .icon-box {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -708,40 +708,40 @@ section {
   height: 100%;
 }
 
-.services .icon-box:hover {
+.contents .icon-box:hover {
   transform: translateY(-10px);
   box-shadow: 0 2px 35px 0 rgba(68, 88, 144, 0.2);
 }
 
-.services .icon {
+.contents .icon {
   position: absolute;
   left: -20px;
   top: calc(50% - 30px);
 }
 
-.services .icon i {
+.contents .icon i {
   font-size: 64px;
   line-height: 1;
   transition: 0.5s;
 }
 
-.services .title {
+.contents .title {
   margin-left: 40px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.services .title a {
+.contents .title a {
   color: #2a2c39;
   transition: ease-in-out 0.3s;
 }
 
-.services .title a:hover {
+.contents .title a:hover {
   color: #ef6603;
 }
 
-.services .description {
+.contents .description {
   font-size: 14px;
   margin-left: 40px;
   line-height: 24px;
