@@ -568,7 +568,7 @@ section {
   border: 1px solid #d4d6df;
   padding: 15px;
   transition: 0.3s;
-  color: #2a2c39;
+  color: #000000;
   border-radius: 0;
   display: flex;
   align-items: center;
@@ -587,13 +587,13 @@ section {
 }
 
 .metadatalignment .nav-link:hover {
-  color: #ef6603;
+  color: #000000;
 }
 
 .metadatalignment .nav-link.active {
   background: #ef6603;
   color: #fff;
-  border-color: #ef6603;
+  border-color: #fff;
 }
 
 @media (max-width: 768px) {
