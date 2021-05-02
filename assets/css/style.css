@@ -590,6 +590,8 @@ section {
   color: #000000;
 }
 
+
+
 .metadatalignment .nav-link.active {
   background: #ef6603;
   color: #fff;
@@ -618,9 +620,14 @@ section {
   margin-top: 30px;
 }
 
-.metadatalignment .tab-pane table {
-	table-layout : auto;
+.metadatalignment table {
+  width:100%;
+  height:auto;
+  border-collapse: collapse;
+  table-layout:auto; 
 }
+
+
 
  
 
@@ -795,6 +802,7 @@ section {
 .items .items-item .items-img img {
   transition: all 0.8s ease-in-out;
 }
+
 
 .items .items-item .items-info {
   opacity: 0;
