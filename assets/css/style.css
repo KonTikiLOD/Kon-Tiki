@@ -604,6 +604,7 @@ section {
   }
 }
 
+
 @media (max-width: 575px) {
   .metadatalignment .nav-link {
     padding: 15px;
@@ -614,32 +615,15 @@ section {
 }
 
 .metadatalignment .tab-content {
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
-.metadatalignment .tab-pane h3 {
-  font-weight: 600;
-  font-size: 26px;
+.metadatalignment .tab-pane table {
+	table-layout : auto;
 }
 
-.metadatalignment .tab-pane ul {
-  list-style: none;
-  padding: 0;
-}
+ 
 
-.metadatalignment .tab-pane ul li {
-  padding-bottom: 10px;
-}
-
-.metadatalignment .tab-pane ul i {
-  font-size: 20px;
-  padding-right: 4px;
-  color: #ef6603;
-}
-
-.metadatalignment .tab-pane p:last-child {
-  margin-bottom: 0;
-}
 
 /*--------------------------------------------------------------
 # Cta
