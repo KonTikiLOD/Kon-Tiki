@@ -615,7 +615,7 @@ section {
 }
 
 .metadatalignment .tab-content {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .metadatalignment .tab-pane table {
@@ -714,6 +714,10 @@ section {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
+}
+
+.contents ul {
+    list-style-type: none;
 }
 
 .contents .title a {
