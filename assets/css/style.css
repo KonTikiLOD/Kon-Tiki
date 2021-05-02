@@ -757,6 +757,10 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
+.items card {
+  box-shadow: inset 10px 10px 5px #dedede;
+}
+
 .items #items-flters li::before {
   content: "[";
   margin-right: 6px;
