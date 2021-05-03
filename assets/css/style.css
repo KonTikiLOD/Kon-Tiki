@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: rgba(52,160,164);
+  color: rgba(0,206,209,1);
   text-decoration: none;
 }
 
