@@ -817,6 +817,11 @@ section {
   padding: 2px 16px;
 }
 
+.items .card-header {
+ background-color: #fff;
+ border: none
+ }
+
 
 .items .items-item .items-info {
   opacity: 0;
