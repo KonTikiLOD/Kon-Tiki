@@ -359,11 +359,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid rgba(139,125,107,1);
+  border: 2px solid rgba(52,160,164);
 }
 
 #hero .btn-get-started:hover {
-  background: rgba(139,125,107,1);
+  background: rgba(52,160,164);
   color: #fff;
   text-decoration: none;
 }
