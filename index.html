@@ -734,7 +734,6 @@
 		<div class="tab-pane" id="tab-3">
 			<div class="row align-items-start">
 				<div class="col-lg-12">
-					<br>
 					<table class="table table-hover">
 						<thead style="background-color:#FA8072;">
 							<tr>
@@ -957,37 +956,259 @@
 
     <!-- ======= Data description Section======= -->
 	
+	
+	
+	
     <section id="datadescription" class="datadescription">
       <div class="container">
-
-        <div class="section-title" data-aos="zoom-out">
-          <h2>Knowledge representation</h2>
-          <p>Data description</p>
+		<div class="section-title" data-aos="zoom-out">
+		  <h2>Knowledge representation</h2>
+		  <p>Data description</p>
 		  <h3> what we want to say </h3>
-        </div>
-		
-		<ul class="nav nav-pills nav-fill">
-		  <li class="nav-item">
-			<a class="nav-link active" href="#">People</a>
+		</div>
+	
+				<!-- Tabs navs -->
+		<ul class="nav nav-tabs nav-justified mb-3" id="tabs" role="tablist">
+		  <li class="nav-item" role="presentation">
+			<a
+			  class="nav-link active"
+			  id="Texts"
+			  data-mdb-toggle="tab"
+			  href="#tabs-1"
+			  role="tab"
+			  aria-controls="tabs-1"
+			  aria-selected="true"
+			  >Texts</a
+			>
 		  </li>
-		  <li class="nav-item">
-			<a class="nav-link" href="#">Places</a>
+		  <li class="nav-item" role="presentation">
+			<a
+			  class="nav-link"
+			  id="ex3-tab-2"
+			  data-mdb-toggle="tab"
+			  href="#ex3-tabs-2"
+			  role="tab"
+			  aria-controls="ex3-tabs-2"
+			  aria-selected="false"
+			  >Artifacts</a>
 		  </li>
-		  <li class="nav-item">
-			<a class="nav-link" href="#">Concepts</a>
+		  <li class="nav-item" role="presentation">
+			<a
+			  class="nav-link"
+			  id="ex3-tab-3"
+			  data-mdb-toggle="tab"
+			  href="#ex3-tabs-3"
+			  role="tab"
+			  aria-controls="ex3-tabs-3"
+			  aria-selected="false"
+			  >People</a
+			>
 		  </li>
-		  <li class="nav-item">
-			<a class="nav-link" href="#">Artifacts</a>
+		  <li class="nav-item" role="presentation">
+			<a
+			  class="nav-link"
+			  id="ex3-tab-3"
+			  data-mdb-toggle="tab"
+			  href="#ex3-tabs-3"
+			  role="tab"
+			  aria-controls="ex3-tabs-3"
+			  aria-selected="false"
+			  >Places</a
+			>
 		  </li>
-		  <li class="nav-item">
-			<a class="nav-link" href="#">Texts</a>
-		  </li>
-		  <li class="nav-item">
-			<a class="nav-link" href="#">Multimedia</a>
+		  <li class="nav-item" role="presentation">
+			<a
+			  class="nav-link"
+			  id="ex3-tab-3"
+			  data-mdb-toggle="tab"
+			  href="#ex3-tabs-3"
+			  role="tab"
+			  aria-controls="ex3-tabs-3"
+			  aria-selected="false"
+			  >Concepts</a
+			>
 		  </li>
 		</ul>
-	
+<!-- Tabs navs -->
+
+<!-- Tabs content -->
+		<div class="row align-items-start">
+		<div class="tab-content" id="content">
+		  <div class="tab-pane fade show active" id="tabs-1" role="tabpanel" aria-labelledby="tab-1">
+			<p> Book </p>
+			<table class="table table-hover">
+			  <thead>
+				<tr>
+				  <th scope="col">#</th>
+				  <th scope="col">Question</th>
+				  <th scope="col">Property</th>
+				  <th scope="col">Object</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <th scope="row">1</th>
+				  <td>What is the resource title?</td>
+				  <td>dcterms:title</td>
+				  <td>Kon-Tiki exkspedisjonen</td>
+				</tr>
+				<tr>
+				  <th scope="row">2</th>
+				  <td>What type of resource is it?</td>
+				  <td>rdf:type</td>
+				  <td>An immaterial cultural expression</td>
+				</tr>
+				<tr>
+				  <th scope="row">3</th>
+				  <td>What is the resource about?</td>
+				  <td>crm:P129_is_about</td>
+				  <td>The Kon-Tiki expedition</td>
+				</tr>
+				<tr>
+				  <th scope="row">4</th>
+				  <td>What is the resource language?</td>
+				  <td>crm:P72:has_Language</td>
+				  <td>Norwegian</td>
+				</tr>
+				<tr>
+				  <th scope="row">5</th>
+				  <td>What  does the resource convey?</td>
+				  <td>frbroo:crm:P148_has_component</td>
+				  <td>A written text</td>
+				</tr>
+				<tr>
+				  <th scope="row">6</th>
+				  <td>How can we describe or classify our resource?</td>
+				  <td>crm:P2_has_type</td>
+				  <td>Memoirs</td>
+				</tr>
+				<tr>
+				  <th scope="row">7</th>
+				  <td>What publication or edition carries this resource?</td>
+				  <td>frbroo:R4_carriers_provided_by</td>
+				  <td>Thor Heyerdhl, Kon-Tiki ekspedisjonen, Oslo: Gyldendal, 1948 </td>
+				</tr>
+				<tr>
+				  <th scope="row">8</th>
+				  <td>What event created the resource?</td>
+				  <td>frbroo:R17_was_created_by</td>
+				  <td>The expression creation</td>
+				</tr>
+			  </tbody>
+			</table>
+			<br>
+			<p>Expression creation</p>
+			<table class="table table-hover">
+			  <thead>
+				<tr>
+				  <th scope="col">#</th>
+				  <th scope="col">Question</th>
+				  <th scope="col">Property</th>
+				  <th scope="col">Object</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <th scope="row">1</th>
+				  <td>Who created the expression?</td>
+				  <td>crm:P14_carried_out_by</td>
+				  <td>Thor Heyerdahl</td>
+				</tr>
+				<tr>
+				  <th scope="row">2</th>
+				  <td>When was the resource created?</td>
+				  <td>crm:P4_has_time-span</td>
+				  <td>1948</td>
+				</tr>
+			  </tbody>
+			</table>
+			<br>
+			<p>Edition</p>
+			<table class="table table-hover">
+			  <thead>
+				<tr>
+				  <th scope="col">#</th>
+				  <th scope="col">Question</th>
+				  <th scope="col">Property</th>
+				  <th scope="col">Object</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <th scope="row">1</th>
+				  <td>What type of resource is it?</td>
+				  <td>rdf:type</td>
+				  <td>Publication, edition</td>
+				</tr>
+				<tr>
+				  <th scope="row">2</th>
+				  <td>When was the resource published?</td>
+				  <td>fabio:has_publication_date</td>
+				  <td>1948</td>
+				</tr>
+				<tr>
+				  <th scope="row">3</th>
+				  <td>Who is the publisher?</td>
+				  <td>fabio:has_Publisher</td>
+				  <td>By Gyldendal</td>
+				</tr>
+				<tr>
+				  <th scope="row">4</th>
+				  <td>Where was the resource published?</td>
+				  <td>fabio:has_place_of_publication</td>
+				  <td>In Oslo</td>
+				</tr>
+				<tr>
+				  <th scope="row">5</th>
+				  <td>What exemplar embodies this resource?</td>
+				  <td>frbroo:R7_has_example</td>
+				  <td>The copy held by the Nasjonalbiblioteket in Oslo</td>
+				</tr>
+			  </tbody>
+			</table>
+			<br>
+			<p>Copy</p>
+			<table class="table table-hover">
+			  <thead>
+				<tr>
+				  <th scope="col">#</th>
+				  <th scope="col">Question</th>
+				  <th scope="col">Property</th>
+				  <th scope="col">Object</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <th scope="row">1</th>
+				  <td>Where is the resource kept at?</td>
+				  <td>crm:P50_has_current_keeper</td>
+				  <td>In the Nasjonalbiblioteket of Oslo</td>
+				</tr>
+			  </tbody>
+			</table>
+					  
+		  
+		  
+		  
+		  <div
+			class="tab-pane fade"
+			id="ex3-tabs-2"
+			role="tabpanel"
+			aria-labelledby="ex3-tab-2"
+		  >
+			Tab 2 content
+		  </div>
+		  <div
+			class="tab-pane fade"
+			id="ex3-tabs-3"
+			role="tabpanel"
+			aria-labelledby="ex3-tab-3"
+		  >
+			Tab 3 content
+		  </div>
+		</div>
 	</section>
+
 		
 	<!-- End Data description Section -->
 	
@@ -1032,11 +1253,10 @@
         </div>
 
         <div class="row">
-
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up">
               <div class="member-img">
-                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/Francesca.jpg" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -1045,7 +1265,7 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Walter White</h4>
+                <h4>Francesca Borriello</h4>
                 <span>Chief Executive Officer</span>
               </div>
             </div>
@@ -1054,7 +1274,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="100">
               <div class="member-img">
-                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/blue.jpg" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -1063,7 +1283,7 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Sarah Jhonson</h4>
+                <h4>Lorenza Pierucci</h4>
                 <span>Product Manager</span>
               </div>
             </div>
@@ -1072,7 +1292,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="200">
               <div class="member-img">
-                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/Alice.jpg" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -1081,14 +1301,12 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>William Anderson</h4>
+                <h4>Alice Bordignon</h4>
                 <span>CTO</span>
               </div>
             </div>
           </div>
-
         </div>
-
       </div>
     </section><!-- End Team Section -->
 
