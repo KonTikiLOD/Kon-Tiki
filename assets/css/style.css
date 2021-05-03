@@ -937,7 +937,7 @@ section {
   border-radius: 50px;
   width: 36px;
   height: 36px;
-  background: rgba(239, 102, 3, 0.8);
+  background: rgba(0,206,209,1);
   transition: ease-in-out 0.3s;
   color: #fff;
   display: inline-flex;
@@ -946,7 +946,7 @@ section {
 }
 
 .team .member .social a:hover {
-  background: #fc8129;
+  background: rgba(82,182,154);
 }
 
 .team .member .social i {
