@@ -137,8 +137,8 @@
           <div class="col-lg-6 pt-4 pt-lg-0">
 			<div class="img-fluid">
 				<img class="img-fluid" src="assets/img/ghirigori/kontiki.jpg" alt="" align="right" width="500" height="600"/>
-				<a href="#contents" class="btn-learn-more" align="right">Contents</a>
 			</div>
+				<a href="#contents" class="btn-learn-more">Contents</a>
             
           </div>
 		</div>
@@ -550,26 +550,26 @@
 		  <h3> what we want to say </h3>
         </div>
 
-        <ul class="nav nav-tabs row d-flex">
-          <li class="nav-item col-3" data-aos="zoom-in" >
+        <ul class="nav nav-tabs nav-justified mb-3" id="tabs" role "tablist">
+          <li class="nav-item" data-aos="zoom-in" role="presentation">
             <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1" style="background-color: #BFEFFF;" >
               <i class="bi bi-person"></i>
               <h4 class="d-none d-lg-block">WHO</h4>
             </a>
           </li>
-          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="100">
+          <li class="nav-item" data-aos="zoom-in" data-aos-delay="100">
             <a class="nav-link" data-bs-toggle="tab" href="#tab-2" style="background-color: #FFF68F;">
               <i class="bi bi-geo-alt"></i>
               <h4 class="d-none d-lg-block">WHERE</h4>
             </a>
           </li>
-          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="200">
+          <li class="nav-item" data-aos="zoom-in" data-aos-delay="200">
             <a class="nav-link" data-bs-toggle="tab" href="#tab-3" style="background-color: #FA8072;">
               <i class="bi bi-calendar4"></i>
               <h4 class="d-none d-lg-block">WHEN</h4>
             </a>
           </li>
-          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="300">
+          <li class="nav-item" data-aos="zoom-in" data-aos-delay="300">
             <a class="nav-link" data-bs-toggle="tab" href="#tab-4" style="background-color: #C1FFC1;">
               <i class="bi bi-patch-question"></i>
               <h4 class="d-none d-lg-block">WHAT</h4>
@@ -579,9 +579,9 @@
 		<br>
 		<br>
         <div class="tab-content" data-aos="fade-up">
-          <div class="tab-pane active show" id="tab-1">
+          <div class="tab-pane active" id="tab-1">
             <div class="row align-items-start">
-			<div class="row justify-content-md-center">
+				<div class="row justify-content-md-center">
 				<table class="table table-hover">
 					<thead style="background-color:#BFEFFF;">
 						<tr>
@@ -592,7 +592,7 @@
 							<th>RAD</th>
 							<th>SOMA</th>
 							<th>ISAD(G)</th>
-							<th width="25%">XML MMD</th>
+							<th>XML MMD</th>
 							<th>MARC21</th>
 							<th>UNIMARC</th>
 						</tr>
@@ -969,53 +969,21 @@
 	
 				<!-- Tabs navs -->
 		<ul class="nav nav-tabs nav-justified mb-3" id="tabs" role="tablist">
-		  <li class="nav-item" role="presentation">
-			<a
-			  class="nav-link active"
-			  id="Texts"
-			  data-mdb-toggle="tab"
-			  href="#tabs-1"
-			  role="tab"
-			  style="background-color: text-blue-200"
-			  aria-controls="tabs-1"
-			  aria-selected="true"
-			  >Texts</a
-			>
+		  <li class="nav-item" data-aos="zoom-in" role="presentation">
+		  
+			<a class="nav-link active show" data-bs-toggle="tab" href="#tab-text" role="tab">Texts </a>
 		  </li>
 		  <li class="nav-item" role="presentation">
-			<a
-			  class="nav-link"
-			  id="ex3-tab-2"
-			  data-mdb-toggle="tab"
-			  href="#ex3-tabs-2"
-			  role="tab"
-			  aria-controls="ex3-tabs-2"
-			  aria-selected="false"
-			  >Artifacts</a>
+			<a class="nav-link" data-bs-toggle="tab" href="#tab-artifacts" role="tab">Artifacts
+			</a>
 		  </li>
 		  <li class="nav-item" role="presentation">
-			<a
-			  class="nav-link"
-			  id="ex3-tab-3"
-			  data-mdb-toggle="tab"
-			  href="#ex3-tabs-3"
-			  role="tab"
-			  aria-controls="ex3-tabs-3"
-			  aria-selected="false"
-			  >People</a
-			>
+			<a class="nav-link" data-bs-toggle="tab" href="#tab-creativeworks" role="tab">Creative works
+			</a>
 		  </li>
 		  <li class="nav-item" role="presentation">
-			<a
-			  class="nav-link"
-			  id="ex3-tab-3"
-			  data-mdb-toggle="tab"
-			  href="#ex3-tabs-3"
-			  role="tab"
-			  aria-controls="ex3-tabs-3"
-			  aria-selected="false"
-			  >Places</a
-			>
+			<a class="nav-link" id="tab-recording" data-bs-toggle="tab" href="#tab-recording" role="tab">Recording
+			</a>
 		  </li>
 		  <li class="nav-item" role="presentation">
 			<a
@@ -1035,7 +1003,7 @@
 <!-- Tabs content -->
 		<div class="row align-items-start">
 		<div class="tab-content" id="content">
-		  <div class="tab-pane fade show active" id="tabs-1" role="tabpanel" aria-labelledby="tab-1">
+		  <div class="tab-pane fade show active" id="tab-text" role="tabpanel" aria-labelledby="tab-text">
 			<p> Book </p>
 			<table class="table table-hover">
 			  <thead class="table-primary">
@@ -1081,7 +1049,7 @@
 				  <th scope="row">6</th>
 				  <td>How can we describe or classify our resource?</td>
 				  <td>crm:P2_has_type</td>
-				  <td>Memoirs</td>
+				  <td><a href="http://vocab.getty.edu/page/aat/300202559">Memoirs</a></td>
 				</tr>
 				<tr>
 				  <th scope="row">7</th>
@@ -1187,27 +1155,482 @@
 				</tr>
 			  </tbody>
 			</table>
-					  
+	      </div> 
+		  
+		  <div class="tab-pane fade" id="tab-artifacts" role="tabpanel" aria-labelledby="tab-artifacts">
+			<p> Board game </p>
+			<table class="table table-hover">
+			  <thead class="table-danger">
+				<tr>
+				  <th scope="col">#</th>
+				  <th scope="col">Question</th>
+				  <th scope="col">Property</th>
+				  <th scope="col">Object</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <th scope="row">1</th>
+				  <td>What type of resource is it?</td>
+				  <td>rdf:type</td>
+				  <td>It is an artifact</td>
+				</tr>
+				<tr>
+				  <th scope="row">2</th>
+				  <td>How can we describe or classify our resource?</td>
+				  <td>crm:P2_has_type</td>
+				  <td><a href="http://vocab.getty.edu/page/aat/300217912">Board Game</a>(game sets)</td>
+				</tr>
+				<tr>
+				  <th scope="row">3</th>
+				  <td>What is the title of the resource?</td>
+				  <td>crm:P102_has_title</td>
+				  <td>Kon-Tiki</td>
+				</tr>
+				<tr>
+				  <th scope="row">4</th>
+				  <td>What label can be used to describe the resource?</td>
+				  <td>rdf:label</td>
+				  <td>The Kon-Tiki board game</td>
+				</tr>
+				<tr>
+				  <th scope="row">5</th>
+				  <td>From what did it draw inspiration?</td>
+				  <td>schema:isBasedOn</td>
+				  <td>The Kon-Tiki ekspedisjonen book</td>
+				</tr>
+				<tr>
+				  <th scope="row">6</th>
+				  <td>What material is it made of?</td>
+				  <td>crm:P45_consists_of</td>
+				  <td><a href="http://vocab.getty.edu/page/aat/300014224">Cardboard </a><a href="http://vocab.getty.edu/page/aat/300014109"> paper </a> <a href="http://vocab.getty.edu/page/aat/300011002"> iron </a> <a href="http://vocab.getty.edu/page/aat/300014570">plastic </a> </td>
+				</tr>
+				<tr>
+				  <th scope="row">7</th>
+				  <td>What are the dimensions?</td>
+				  <td>crm:P43_has_dimension</td>
+				  <td>28.5x45x3.5 cm</td>
+				</tr>
+				<tr>
+				  <th scope="row">8</th>
+				  <td>Where is it kept?</td>
+				  <td>crm:P50_has_current_keeper</td>
+				  <td><a href="http://viaf.org/viaf/147729237">Spielzeugmuseum Nürnberg </a></td>
+				</tr>
+				<tr>
+				  <th scope="row">9</th>
+				  <td>What are its components?</td>
+				  <td>crm:P46_is_composed_of</td>
+				  <td>A foldable board, eight rotating discs, playing card, a light brown plastic raft and instructions</td>
+				</tr>
+				<tr>
+				  <th scope="row">10</th>
+				  <td>Who was the contributor?</td>
+				  <td>dcterms:contributor</td>
+				  <td><a href="http://viaf.org/viaf/108635306">Thor Heyerdahl</a></td>
+				</tr>
+				<tr>
+				  <th scope="row">11</th>
+				  <td>Which event created the resource?</td>
+				  <td>crm:P108_was_produced_by</td>
+				  <td>Production</td>
+				</tr>
+			  </tbody>
+			</table>
+			<br>
+			<p> Production </p>
+			<table class="table table-hover">
+			  <thead class="table-danger">
+				<tr>
+				  <th scope="col">#</th>
+				  <th scope="col">Question</th>
+				  <th scope="col">Property</th>
+				  <th scope="col">Class</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <th scope="row">1</th>
+				  <td>When did the production take place?</td>
+				  <td>crm:P4_has_time-span</td>
+				  <td>1967-1971</td>
+				</tr>
+				<tr>
+				  <th scope="row">2</th>
+				  <td>Where did the production take place?</td>
+				  <td>crm:P7_took_place_at</td>
+				  <td><a href="https://www.geonames.org/2921044/federal-republic-of-germany.html">Germany </a></td>
+				</tr>
+				<tr>
+				  <th scope="row">3</th>
+				  <td>Who carried it out?</td>
+				  <td>crm:P14_carried_out_by</td>
+				  <td><a href="http://viaf.org/viaf/133043621">J. W. Spear and Sons Spear's Games</a></td>
+				</tr>
+				<tr>
+				  <th scope="row">4</th>
+				  <td>What is the technique?</td>
+				  <td>crm:P32_used_general_technique</td>
+				  <td><a href="http://vocab.getty.edu/page/aat/300053013">Pasting</a><a href="http://vocab.getty.edu/page/aat/300053319"> printing <a> <a href="http://vocab.getty.edu/page/aat/300053104"> casting, </a> <a href="http://vocab.getty.edu/page/aat/300053136"> pressing </a> <a href="http://vocab.getty.edu/page/aat/300053019"> riveting, </a> and <a href="http://vocab.getty.edu/page/aat/300235631"> punching </a> </td>
+				</tr>
+			  </tbody>
+			</table>
+			<br>
+			
+			<p> Raft </p>
+			<table class="table table-hover">
+			  <thead class="table-danger">
+				<tr>
+				  <th scope="col">#</th>
+				  <th scope="col">Question</th>
+				  <th scope="col">Property</th>
+				  <th scope="col">Object</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <th scope="row">1</th>
+				  <td>What type of resource is it?</td>
+				  <td>rdf:type</td>
+				  <td>It is an artifact</td>
+				</tr>
+				<tr>
+				  <th scope="row">2</th>
+				  <td>How can we describe or classify our resource?</td>
+				  <td>crm:P2_has_type</td>
+				  <td><a href="http://vocab.getty.edu/page/aat/300212835">Rafts</a></td>
+				</tr>
+				<tr>
+				  <th scope="row">3</th>
+				  <td>What label can be used to describe the resource?</td>
+				  <td>rdf:label</td>
+				  <td>The Kon-Tiki raft</td>
+				</tr>
+				<tr>
+				  <th scope="row">4</th>
+				  <td>What was it used for?</td>
+				  <td>P16_was_used_for</td>
+				  <td>The Kon-Tiki expedition</td>
+				</tr>
+				<tr>
+				  <th scope="row">6</th>
+				  <td>What material is it made of?</td>
+				  <td>crm:P45_consists_of</td>
+				  <td><a href="http://vocab.getty.edu/page/aat/300012512">Balsa wood (trunks)</a><a href="http://vocab.getty.edu/page/aat/300012234"> mangrove timber (mast) > mangrove (wood) </a> <a href="http://vocab.getty.edu/page/aat/300011873"> bambù (cabin) > bamboo (material) </a></td>
+				</tr>
+				<tr>
+				  <th scope="row">7</th>
+				  <td>What are the dimensions?</td>
+				  <td>crm:P43_has_dimension</td>
+				  <td>Trunks dimensions: 14 meters y 60 cm in diameter. Mast dimensions: form an A-frame 8.8 m. Cabin dimensions: 4.3 m long and 2.4 m wide and about 1.2-1.5 m high. Main sail dimensions: 4.6 by 5.5 m.</td>
+				</tr>
+				<tr>
+				  <th scope="row">8</th>
+				  <td>Where is it kept?</td>
+				  <td>crm:P50_has_current_keeper</td>
+				  <td><a href="http://viaf.org/viaf/126801442">Kon-Tiki Museum </a></td>
+				</tr>
+				<tr>
+				  <th scope="row">9</th>
+				  <td>What are its components?</td>
+				  <td>crm:P46_is_composed_of</td>
+				  <td>Nine balsa tree trunks, a mast, a cabin roofed by a banana leaf thatch, sails</td>
+				</tr>
+				<tr>
+				  <th scope="row">10</th>
+				  <td>Which event created the resource?</td>
+				  <td>crm:P108_was_produced_by</td>
+				  <td>Production</td>
+				</tr>
+			  </tbody>
+			</table>
+			<br>
+			<p> Production </p>
+			<table class="table table-hover">
+			  <thead class="table-danger">
+				<tr>
+				  <th scope="col">#</th>
+				  <th scope="col">Question</th>
+				  <th scope="col">Property</th>
+				  <th scope="col">Class</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <th scope="row">1</th>
+				  <td>When did the production take place?</td>
+				  <td>crm:P4_has_time-span</td>
+				  <td>1947</td>
+				</tr>
+				<tr>
+				  <th scope="row">2</th>
+				  <td>Where did the production take place?</td>
+				  <td>crm:P7_took_place_at</td>
+				  <td>Lima, Perù</td>
+				</tr>
+				<tr>
+				  <th scope="row">3</th>
+				  <td>Who carried it out?</td>
+				  <td>crm:P14_carried_out_by</td>
+				  <td>Thor Heyerdahl, Erik Hesselberg,Bengt Danielsson, Knut Haugland, Tors ein Raaby, Herman Watzinger </td>
+				</tr>
+			  </tbody>
+			</table>
+			<br>
+			
+			<p> Manifest </p>
+			<table class="table table-hover">
+			  <thead class="table-danger">
+				<tr>
+				  <th scope="col">#</th>
+				  <th scope="col">Question</th>
+				  <th scope="col">Property</th>
+				  <th scope="col">Object</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <th scope="row">1</th>
+				  <td>What type of resource is it?</td>
+				  <td>rdf:type</td>
+				  <td>It is an artifact</td>
+				</tr>
+				<tr>
+				  <th scope="row">2</th>
+				  <td>How can we describe or classify our resource?</td>
+				  <td>crm:P2_has_type</td>
+				  <td><a href="http://vocab.getty.edu/page/aat/300217912">Film poster</a></td>
+				</tr>
+				<tr>
+				  <th scope="row">3</th>
+				  <td>What label can be used to describe the resource?</td>
+				  <td>rdf:label</td>
+				  <td>The Kon-Tiki poster</td>
+				</tr>
+				<tr>
+				  <th scope="row">4</th>
+				  <td>What is the title of the resource?</td>
+				  <td>crm:P102_has_title</td>
+				  <td>Kon-Tiki / Simbari</td>
+				</tr>
+				<tr>
+				  <th scope="row">5</th>
+				  <td>What material is it made of??</td>
+				  <td>crm:P45_consists_of</td>
+				  <td>Paper</td>
+				</tr>
+				<tr>
+				  <th scope="row">6</th>
+				  <td>What are the dimensions?</td>
+				  <td>crm:P43_has_dimension</td>
+				  <td>70x33 cm</td>
+				</tr>
+				<tr>
+				  <th scope="row">7</th>
+				  <td>Where is it kept?</td>
+				  <td>crm:P50_has_current_keeper</td>
+				  <td>Biblioteca provinciale La Magna Capitana - Foggia</td>
+				</tr>
+				<tr>
+				  <th scope="row">8</th>
+				  <td>Which event created the resource?</td>
+				  <td>crm:P108_was_produced_by</td>
+				  <td>Production</td>
+				</tr>
+			  </tbody>
+			</table>
+			<br>
+			<p> Production </p>
+			<table class="table table-hover">
+			  <thead class="table-danger">
+				<tr>
+				  <th scope="col">#</th>
+				  <th scope="col">Question</th>
+				  <th scope="col">Property</th>
+				  <th scope="col">Class</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <th scope="row">1</th>
+				  <td>When did the production take place?</td>
+				  <td>crm:P4_has_time-span</td>
+				  <td>1952</td>
+				</tr>
+				<tr>
+				  <th scope="row">2</th>
+				  <td>Where did the production take place?</td>
+				  <td>crm:P7_took_place_at</td>
+				  <td><a href="https://www.geonames.org/6542285/firenze.html"> Firenze </a></td>
+				</tr>
+				<tr>
+				  <th scope="row">3</th>
+				  <td>Who carried it out?</td>
+				  <td>crm:P14_carried_out_by</td>
+				  <td><a href="https://viaf.org/viaf/20490855/"> Nicola Simbari </a> </td>
+				</tr>
+				<tr>
+				  <th scope="row">4</th>
+				  <td>What is the technique?</td>
+				  <td>crm:P32_used_general_technique</td>
+				  <td><a href="http://vocab.getty.edu/page/aat/300053272"> Chromolithography </a> </td>
+				</tr>
+			  </tbody>
+			</table>
+		  </div>  	
 		  
 		  
-		  
-		  <div
-			class="tab-pane fade"
-			id="ex3-tabs-2"
-			role="tabpanel"
-			aria-labelledby="ex3-tab-2"
-		  >
-			Tab 2 content
-		  </div>
-		  <div
-			class="tab-pane fade"
-			id="ex3-tabs-3"
-			role="tabpanel"
-			aria-labelledby="ex3-tab-3"
-		  >
-			Tab 3 content
+		  <div class="tab-pane fade" id="tab-creativeworks" role="tabpanel" aria-labelledby="tab-creativeworks">
+			<p> Song </p>
+			<table class="table table-hover">
+			  <thead class="table-success">
+				<tr>
+				  <th scope="col">#</th>
+				  <th scope="col">Question</th>
+				  <th scope="col">Property</th>
+				  <th scope="col">Object</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <th scope="row">1</th>
+				  <td>What is the resource title?</td>
+				  <td>crm:P102_has_title</td>
+				  <td>Kon-Tiki</td>
+				</tr>
+				<tr>
+				  <th scope="row">2</th>
+				  <td>What type of resource is it?</td>
+				  <td>rdf:type</td>
+				  <td>It is a creative work</td>
+				</tr>
+				<tr>
+				  <th scope="row">3</th>
+				  <td>How can we describe or classify our resource?</td>
+				  <td>crm:P2_has_type</td>
+				  <td>It is a song</td>
+				</tr>
+				<tr>
+				  <th scope="row">4</th>
+				  <td>What label can be used to describe the resource?</td>
+				  <td>rdf:label</td>
+				  <td>Kon-Tiki song by Meet the sun </td>
+				</tr>
+				<tr>
+				  <th scope="row">5</th>
+				  <td>Who created the resource?</td>
+				  <td>dcterms:Creator</td>
+				  <td>Meet the Sun</td>
+				</tr>
+				<tr>
+				  <th scope="row">6</th>
+				  <td>What is the language of the resource?</td>
+				  <td>crm:P72:has_Language</td>
+				  <td>English</td>
+				</tr>
+				<tr>
+				  <th scope="row">7</th>
+				  <td>When was the resource published?</td>
+				  <td>schema:datePublished</td>
+				  <td>2016-04-04</td>
+				</tr>
+				<tr>
+				  <th scope="row">8</th>
+				  <td>What is the genre of the resource?</td>
+				  <td>schema:Genre</td>
+				  <td><a href="https://www.wikidata.org/wiki/Q43343">Folk</a></td>
+				</tr>
+				<tr>
+				  <th scope="row">9</th>
+				  <td>What is the duration of the resource?</td>
+				  <td>schema:duration</td>
+				  <td> 2:51</td>
+				</tr>
+			  </tbody>
+			</table>
+			<br>
+			<p> Film </p>
+			<table class="table table-hover">
+			  <thead class="table-success">
+				<tr>
+				  <th scope="col">#</th>
+				  <th scope="col">Question</th>
+				  <th scope="col">Property</th>
+				  <th scope="col">Object</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <th scope="row">1</th>
+				  <td>What is the resource title?</td>
+				  <td>crm:P102_has_title</td>
+				  <td>Kon-Tiki</td>
+				</tr>
+				<tr>
+				  <th scope="row">2</th>
+				  <td>What type of resource is it?</td>
+				  <td>rdf:type</td>
+				  <td>It is a creative work</td>
+				</tr>
+				<tr>
+				  <th scope="row">3</th>
+				  <td>How can we describe or classify our resource?</td>
+				  <td>crm:P2_has_type</td>
+				  <td>It is a film</td>
+				</tr>
+				<tr>
+				  <th scope="row">4</th>
+				  <td>What label can be used to describe the resource?</td>
+				  <td>rdf:label</td>
+				  <td>A documentary about the Kon-Tiki expedition </td>
+				</tr>
+				<tr>
+				  <th scope="row">5</th>
+				  <td>Who directed it?</td>
+				  <td>dcterms:director</td>
+				  <td>Thor Heyerdahl</td>
+				</tr>
+				<tr>
+				  <th scope="row">6</th>
+				  <td>Who is the screenwriter?</td>
+				  <td>gndo:screenwriter</td>
+				  <td>Thor Heyerdahl</td>
+				</tr>
+				<tr>
+				  <th scope="row">7</th>
+				  <td>What is the language of the resource?</td>
+				  <td>crm:P72_has_language</td>
+				  <td>Norwegian, English</td>
+				</tr>
+				<tr>
+				  <th scope="row">8</th>
+				  <td>What is the genre of the resource?</td>
+				  <td>schema:Genre</td>
+				  <td><a href="http://vocab.getty.edu/page/aat/300375156">Documentary</a></td>
+				</tr>
+				<tr>
+				  <th scope="row">9</th>
+				  <td>When was the resource published?</td>
+				  <td>schema:datePublished</td>
+				  <td> 13 January 1950</td>
+				</tr>
+				<tr>
+				  <th scope="row">10</th>
+				  <td>What is the duration of the resource?</td>
+				  <td>schema:duration</td>
+				  <td> 77 minuts</td>
+				</tr>
+				<tr>
+				  <th scope="row">11</th>
+				  <td>Which award did the resource win?</td>
+				  <td>schema:award</td>
+				  <td>The Academy Award for Documentary Feature in 1952</td>
+				</tr>
+			  </tbody>
+			</table>
 		  </div>
 		</div>
+	</div>
 	</section>
 
 		
