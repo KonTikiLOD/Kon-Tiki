@@ -312,7 +312,7 @@
 									<img class="card-img" src="assets/img/items/manifesto.png" alt="Rounded image" class="img-fluid rounded" style="width: 400;">
 								</div>
 								<div class="card-body">
-									<p style="text-align:center; font-size:20px;"><span class="text-danger"><b>Manifest</b></span></p>
+									<p style="text-align:center; font-size:20px;"><span class="text-danger"><b>Poster</b></span></p>
 									<h4 class="card-title">Kon-tiki/Simbari</h4>
 									<p class="card-text" style="text-align:justify;">eh</p>
 								</div>
@@ -383,7 +383,7 @@
 									<img class="card-img" src="assets/img/items/record speech.jpg" alt="Rounded image" class="img-fluid rounded" style="width: 320px;">
 								</div>
 								<div class="card-body">
-									<p style="text-align:center; font-size:20px;"><span class="text-danger"><b>Recording Speech</b></span></p>
+									<p style="text-align:center; font-size:20px;"><span class="text-danger"><b>Recorded Speech</b></span></p>
 									<h4 class="card-title">Thor Heyerdahl parla della spedizione del Kon Tiki</h4>
 									<p class="card-text" style="text-align:justify;">kdkdkkdkkdlksndklnldsf</p>
 								</div>
@@ -483,7 +483,7 @@
 					<tr>
 						<th scope="row">3</th>
 						<td>Thor Heyerdahl parla della spedizione del Kon Tiki</td>
-						<td>Recording speech</td>
+						<td>Recorded Speech</td>
 						<td>Istituto Centrale per i Beni Sonori ed Audiovisivi</td>
 						<td>UNIMARC</td>
 					</tr>
@@ -525,7 +525,7 @@
 					<tr>
 						<th scope="row">9</th>
 						<td>Kon-Tiki/Simbari</td>
-						<td>Manifest</td>
+						<td>Poster</td>
 						<td>OPAC</td>
 						<td>UNIMARC</td>
 					</tr>
@@ -960,14 +960,14 @@
 			</a>
 		  </li>
 		  <li class="nav-item" role="presentation">
-			<a class="nav-link" id="tab-recording" data-bs-toggle="tab" href="#tab-recording" role="tab" style="background-color: #C1FFC1;">Recording
+			<a class="nav-link" data-bs-toggle="tab" href="#tab-recording" role="tab" style="background-color: #C1FFC1;">Recording
 			</a>
 		  </li>
 		  <li class="nav-item" role="presentation">
 			<a
 			  class="nav-link"
 			  id="ex3-tab-3"
-			  data-mdb-toggle="tab"
+			  data-bs-toggle="tab"
 			  href="#ex3-tabs-3"
 			  role="tab"
 			  aria-controls="ex3-tabs-3"
@@ -1356,7 +1356,7 @@
 			</table>
 			<br>
 			
-			<p> Manifest </p>
+			<p> Poster </p>
 			<table class="table table-hover">
 			  <thead style="background-color: #FFF68F;">
 				<tr>
@@ -1607,6 +1607,218 @@
 			  </tbody>
 			</table>
 		  </div>
+		  
+		  <div class="tab-pane fade" id="tab-recording" role="tabpanel" aria-labelledby="tab-recording">
+			<p> Recording </p>
+			<table class="table table-hover">
+			  <thead style="background-color: #C1FFC1;"">
+				<tr>
+				  <th scope="col">#</th>
+				  <th scope="col">Question</th>
+				  <th scope="col">Property</th>
+				  <th scope="col">Object</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <th scope="row">1</th>
+				  <td>What type of resource is it?</td>
+				  <td>rdf:type</td>
+				  <td>Recording</td>
+				</tr>
+				<tr>
+				  <th scope="row">2</th>
+				  <td>How can we describe or classify our resource?</td>
+				  <td>crm:P2_has_type</td>
+				  <td><a href="http://vocab.getty.edu/page/aat/300026392">Interview</a></td>
+				</tr>
+				<tr>
+				  <th scope="row">3</th>
+				  <td>What label can be used to describe resource?</td>
+				  <td>rdf:label</td>
+				  <td>Thor Heyerdahl talking about the Kon-Tiki expedition</td>
+				</tr>
+				<tr>
+				  <th scope="row">4</th>
+				  <td>What is the title of the resource?</td>
+				  <td>crm:P102_has_title</td>
+				  <td>erdahl parla della spedizione del Kon Tiki</td>
+				</tr>
+				<tr>
+				  <th scope="row">5</th>
+				  <td>What is the language of the resource?</td>
+				  <td>crm:P72_has_language</td>
+				  <td>Norwegian</td>
+				</tr>
+				<tr>
+				  <th scope="row">6</th>
+				  <td>Where is it kept?</td>
+				  <td>crm:P50_has_current_keeper</td>
+				  <td><a href="https://viaf.org/viaf/167897491/"> Istituto centrale per i beni sonori ed audiovisivi, Roma <a></td>
+				</tr>
+				<tr>
+				  <th scope="row">7</th>
+				  <td>Which is the format of the resource?</td>
+				  <td>dcterms:Format</td>
+				  <td><a href="http://vocab.getty.edu/page/aat/300196583">CD</a></td>
+				</tr>
+				<tr>
+				  <th scope="row">8</th>
+				  <td>What is the resource about?</td>
+				  <td>crm:P129_is_about</td>
+				  <td>Kon-Tiki Expedition</td>
+				</tr>
+				<tr>
+				  <th scope="row">9</th>
+				  <td>Which event created the resource?</td>
+				  <td>frbroo:R17_was_created_by</td>
+				  <td>frbroo:F29_Recording_Event</td>
+				</tr>
+				<tr>
+				  <th scope="row">10</th>
+				  <td>What does the resource convey?</td>
+				  <td>crm:P148_has_component</td>
+				  <td>A recorded speech</td>
+				</tr>
+			  </tbody>
+			</table>
+			<br>
+			
+			<p> Recording Event </p>
+			<table class="table table-hover">
+			  <thead style="background-color: #C1FFC1;">
+				<tr>
+				  <th scope="col">#</th>
+				  <th scope="col">Question</th>
+				  <th scope="col">Property</th>
+				  <th scope="col">Object</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <th scope="row">1</th>
+				  <td>When did the recording take place?</td>
+				  <td>crm:P4_has_time-span</td>
+				  <td>1995</td>
+				</tr>
+				<tr>
+				  <th scope="row">2</th>
+				  <td>Who carried it out?</td>
+				  <td>crm:P14_carried_out_by</td>
+				  <td><a href="https://viaf.org/viaf/137832947/"> RAI Radiotelevisione Italiana</td>
+				</tr>
+				<tr>
+				  <th scope="row">3</th>
+				  <td>How was the contributor?</td>
+				  <td>dterms:contributor</td>
+				  <td><a href="https://viaf.org/viaf/108635306/"> Thor Heyerdahl </a></td>
+				</tr>
+			  </tbody>
+			</table>
+		  </div>
+		  
+		  <div class="tab-pane fade" id="tab-recording" role="tabpanel" aria-labelledby="tab-recording">
+			<p> Recording </p>
+			<table class="table table-hover">
+			  <thead style="background-color: #C1FFC1;"">
+				<tr>
+				  <th scope="col">#</th>
+				  <th scope="col">Question</th>
+				  <th scope="col">Property</th>
+				  <th scope="col">Object</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <th scope="row">1</th>
+				  <td>What type of resource is it?</td>
+				  <td>rdf:type</td>
+				  <td>Recording</td>
+				</tr>
+				<tr>
+				  <th scope="row">2</th>
+				  <td>How can we describe or classify our resource?</td>
+				  <td>crm:P2_has_type</td>
+				  <td><a href="http://vocab.getty.edu/page/aat/300026392">Interview</a></td>
+				</tr>
+				<tr>
+				  <th scope="row">3</th>
+				  <td>What label can be used to describe resource?</td>
+				  <td>rdf:label</td>
+				  <td>Thor Heyerdahl talking about the Kon-Tiki expedition</td>
+				</tr>
+				<tr>
+				  <th scope="row">4</th>
+				  <td>What is the title of the resource?</td>
+				  <td>crm:P102_has_title</td>
+				  <td>erdahl parla della spedizione del Kon Tiki</td>
+				</tr>
+				<tr>
+				  <th scope="row">5</th>
+				  <td>What is the language of the resource?</td>
+				  <td>crm:P72_has_language</td>
+				  <td>Norwegian</td>
+				</tr>
+				<tr>
+				  <th scope="row">6</th>
+				  <td>Where is it kept?</td>
+				  <td>crm:P50_has_current_keeper</td>
+				  <td><a href="https://viaf.org/viaf/167897491/"> Istituto centrale per i beni sonori ed audiovisivi, Roma <a></td>
+				</tr>
+				<tr>
+				  <th scope="row">7</th>
+				  <td>Which is the format of the resource?</td>
+				  <td>dcterms:Format</td>
+				  <td><a href="http://vocab.getty.edu/page/aat/300196583">CD</a></td>
+				</tr>
+				<tr>
+				  <th scope="row">8</th>
+				  <td>What is the resource about?</td>
+				  <td>crm:P129_is_about</td>
+				  <td>Kon-Tiki Expedition</td>
+				</tr>
+				<tr>
+				  <th scope="row">9</th>
+				  <td>Which event created the resource?</td>
+				  <td>frbroo:R17_was_created_by</td>
+				  <td>frbroo:F29_Recording_Event</td>
+				</tr>
+			  </tbody>
+			</table>
+		  </div>
+		
+		  <div class="tab-pane fade" id="tab-recording" role="tabpanel" aria-labelledby="tab-recording">
+			<p> CREATTTIIII Event </p>
+			<table class="table table-hover">
+			  <thead style="background-color: #C1FFC1;">
+				<tr>
+				  <th scope="col">#</th>
+				  <th scope="col">Question</th>
+				  <th scope="col">Property</th>
+				  <th scope="col">Object</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <th scope="row">1</th>
+				  <td>When did the recording take place?</td>
+				  <td>crm:P4_has_time-span</td>
+				  <td>1995</td>
+				</tr>
+				<tr>
+				  <th scope="row">2</th>
+				  <td>Who carried it out?</td>
+				  <td>crm:P14_carried_out_by</td>
+				  <td><a href="https://viaf.org/viaf/137832947/"> RAI Radiotelevisione Italiana</td>
+				</tr>
+				<tr>
+				  <th scope="row">3</th>
+				  <td>How was the contributor?</td>
+				  <td>dterms:contributor</td>
+				  <td><a href="https://viaf.org/viaf/108635306/"> Thor Heyerdahl </a></td>
+				</tr>
+			  </tbody>
+			</table>
 		</div>
 	</div>
 	</section>
