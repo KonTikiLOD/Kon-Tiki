@@ -624,10 +624,11 @@ section {
 }
 
 .metadatalignment table {
-  width:100%;
-  height:auto;
-  border-collapse: collapse;
-  table-layout:auto; 
+  table-layout: fixed ;
+  width: 100% ;
+}
+.metadatalignment td {
+  width: 25% ;
 }
 
 
