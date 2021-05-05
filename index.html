@@ -451,7 +451,7 @@
 		  <h3> what we want to say </h3>
         </div>
 		
-		<div class="col-12 col-md-8 offset-md-2">
+		<div class="col-12 col-md-8 offset-md-2" data-aos="fade-up">
 			<table class="table table-hover">
 				<thead class="table-danger"">
 					<tr>
@@ -550,9 +550,10 @@
 		  <h3> what we want to say </h3>
         </div>
 
-        <ul class="nav nav-tabs nav-justified mb-3" id="tabs" role "tablist">
+        <ul class="nav nav-tabs nav-justified mb-4" id="tabs" role "tablist">
           <li class="nav-item" data-aos="zoom-in" role="presentation">
-            <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1" style="background-color: #BFEFFF;" >
+            
+			<a class="nav-link active show" data-bs-toggle="tab" href="#tab-1" style="background-color: #BFEFFF;" >
               <i class="bi bi-person"></i>
               <h4 class="d-none d-lg-block">WHO</h4>
             </a>
@@ -577,88 +578,80 @@
           </li>
         </ul>
 		<br>
-		<br>
-        <div class="tab-content" data-aos="fade-up">
-          <div class="tab-pane active" id="tab-1">
-            <div class="row align-items-start">
-				<div class="row justify-content-md-center">
-				<table class="table table-hover">
-					<thead style="background-color:#BFEFFF;">
-						<tr>
-							<th>#</th>
-							<th>Property</th>
-							<th>DC/DCterms</th>
-							<th>CDWA</th>
-							<th>RAD</th>
-							<th>SOMA</th>
-							<th>ISAD(G)</th>
-							<th>XML MMD</th>
-							<th>MARC21</th>
-							<th>UNIMARC</th>
-						</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<th scope="row">1</th>
-								<td>Creator</td>
-								<td>dc:creator</td>
-								<td>Creator description</td>
-								<td>Administrative history/Biographical sketch</td>
-								<td>Creator/Creator.Role</td>
-								<td>Name of creator(s)</td>
-								<td>&ltartist(s)&gt </td>
-								<td>100$a Personal Name</td>
-								<td>200$f First Statement of Responsibility/700 Personal Name-Primary Responsability/701$a Personal Name-Alternative Intellectual responsibility/710 Corporate Body Name-Primary Responsability/711$a Corporate Body Name-Alternative Intellectual Responsibility</td>
-							</tr>
-							<tr>
-								<th scope="row">2</th>
-								<td>Contributor</td>
-								<td>dc:contributor</td>
-								<td>Creator Role</td>
-								<td>/</td>
-								<td>Contributor/Contributor. Role</td>
-								<td>/</td>
-								<td>/</td>
-								<td>508$a Creation/production credits note</td>
-								<td>200$g Subsequent Statement of Responsibility/702 Personal name-Secondary responsibility/712 Corporate Body Name-Secondary Responsibility</td>
-							</tr>
-							<tr>
-								<th scope="row">3</th>
-								<td>Publisher</td>
-								<td>dc:publisher</td>
-								<td>Creator Role</td>
-								<td>Name of publisher, distributor, etc.</td>
-								<td>Publisher</td>
-								<td>/</td>
-								<td>&lt label &gt </td>
-								<td>260$b Name of publisher, distributor</td>
-								<td>210$c Name of Publisher, Distributor, etc./712 Corporate Body Name-Secondary Responsibility</td>
-							</tr>
-							<tr>
-								<th scope="row">4</th>
-								<td>Owner</td>
-								<td>/</td>
-								<td>Ownership/collecting history, owner</td>
-								<td>Administrative history/Custodial history</td>
-								<td> / </td>
-								<td>Administrative history/Archival history</td>
-								<td>&lt owner(s)&gt </td>
-								<td>561 Ownership and Custodial History </td>
-								<td>703 Personal Name, Provenance or Ownership </td>
-							</tr>
-							</tbody>
-						</table>
-						<br>
-						<br>
-						</div>
-					</div>			  
-					<div class="col-lg-12">
-				</div>
-			</div>
-        <div class="tab-pane" id="tab-2">
-			<div class="row align-items-start">
+        <div class="tab-content" id="content" data-aos="fade-up">
+			<div class="tab-pane show active" id="tab-1" role="tabpanel">
 				<div class="row justify-content-md-center">
 					<table class="table table-hover">
+						<thead style="background-color:#BFEFFF;">
+							<tr>
+								<th>#</th>
+								<th>Property</th>
+								<th>DC/DCterms</th>
+								<th>CDWA</th>
+								<th>RAD</th>
+								<th>SOMA</th>
+								<th>ISAD(G)</th>
+								<th>XML MMD</th>
+								<th>MARC21</th>
+								<th>UNIMARC</th>
+							</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row">1</th>
+									<td>Creator</td>
+									<td>dc:creator</td>
+									<td>Creator description</td>
+									<td>Administrative history/Biographical sketch</td>
+									<td>Creator/Creator.Role</td>
+									<td>Name of creator(s)</td>
+									<td>&ltartist(s)&gt </td>
+									<td>100$a Personal Name</td>
+									<td>200$f First Statement of Responsibility/700 Personal Name-Primary Responsability/701$a Personal Name-Alternative Intellectual responsibility/710 Corporate Body Name-Primary Responsability/711$a Corporate Body Name-Alternative Intellectual Responsibility</td>
+								</tr>
+								<tr>
+									<th scope="row">2</th>
+									<td>Contributor</td>
+									<td>dc:contributor</td>
+									<td>Creator Role</td>
+									<td>/</td>
+									<td>Contributor/Contributor. Role</td>
+									<td>/</td>
+									<td>/</td>
+									<td>508$a Creation/production credits note</td>
+									<td>200$g Subsequent Statement of Responsibility/702 Personal name-Secondary responsibility/712 Corporate Body Name-Secondary Responsibility</td>
+								</tr>
+								<tr>
+									<th scope="row">3</th>
+									<td>Publisher</td>
+									<td>dc:publisher</td>
+									<td>Creator Role</td>
+									<td>Name of publisher, distributor, etc.</td>
+									<td>Publisher</td>
+									<td>/</td>
+									<td>&lt label &gt </td>
+									<td>260$b Name of publisher, distributor</td>
+									<td>210$c Name of Publisher, Distributor, etc./712 Corporate Body Name-Secondary Responsibility</td>
+								</tr>
+								<tr>
+									<th scope="row">4</th>
+									<td>Owner</td>
+									<td>/</td>
+									<td>Ownership/collecting history, owner</td>
+									<td>Administrative history/Custodial history</td>
+									<td> / </td>
+									<td>Administrative history/Archival history</td>
+									<td>&lt owner(s)&gt </td>
+									<td>561 Ownership and Custodial History </td>
+									<td>703 Personal Name, Provenance or Ownership </td>
+								</tr>
+							</tbody>
+					</table>
+				</div>
+			</div>
+            <div class="tab-pane" id="tab-2" role="tabpanel">
+				<div class="row justify-content-md-center">
+					<table class="table table-hover" class="row justify-content-md-center">
 						<thead style="background-color:#FFF68F;">
 							<tr>
 								<th>#</th>
@@ -722,18 +715,12 @@
 								<td>773 Host Item Entry</td>
 								<td>/</td>
 							</tr>
-							</tbody>
-						</table>
-						<br>
-						<br>
-						</div>
-					</div>			  
-					<div class="col-lg-12">
+						</tbody>
+					</table>
 				</div>
 			</div>
-		<div class="tab-pane" id="tab-3">
-			<div class="row align-items-start">
-				<div class="col-lg-12">
+			<div class="tab-pane" id="tab-3" role="tabpanel">
+				<div class="row justify-content-md-center">
 					<table class="table table-hover">
 						<thead style="background-color:#FA8072;">
 							<tr>
@@ -775,18 +762,11 @@
 								<td>210$h Date of Manufacture</td>
 							</tr>
 							</tbody>
-						</table>
-						<br>
-						<br>
-						</div>
-					</div>			  
-					<div class="col-lg-12">
+					</table>
 				</div>
 			</div>
-        <div class="tab-pane" id="tab-4">
-			<div class="row align-items-start">
-				<div class="col-lg-12">
-					<br>
+			<div class="tab-pane" id="tab-4" role="tabpanel">
+				<div class="row justify-content-md-center">
 					<table class="table table-hover">
 						<thead style="background-color:#C1FFC1;">
 							<tr>
@@ -912,12 +892,7 @@
 								<td>215$d Dimensions</td>
 							</tr>
 							</tbody>
-						</table>
-						<br>
-						<br>
-						</div>
-					</div>			  
-					<div class="col-lg-12">
+					</table>
 				</div>
 			</div>
 		</div>
