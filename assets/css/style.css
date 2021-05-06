@@ -843,6 +843,10 @@ section {
  background-color: #fff;
  border: none
  }
+ 
+.items .card {
+ height: 800px;
+}
 
 
 .items .items-item .items-info {
