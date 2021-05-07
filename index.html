@@ -963,18 +963,6 @@
 			<a class="nav-link" data-bs-toggle="tab" href="#tab-recording" role="tab" style="background-color: #C1FFC1;">Recording
 			</a>
 		  </li>
-		  <li class="nav-item" role="presentation">
-			<a
-			  class="nav-link"
-			  id="ex3-tab-3"
-			  data-bs-toggle="tab"
-			  href="#ex3-tabs-3"
-			  role="tab"
-			  aria-controls="ex3-tabs-3"
-			  aria-selected="false"
-			  >Concepts</a
-			>
-		  </li>
 		</ul>
 <!-- Tabs navs -->
 
@@ -1001,42 +989,48 @@
 				</tr>
 				<tr>
 				  <th scope="row">2</th>
+				  <td>What topcic is the resource about??</td>
+				  <td>dcterms:subject</td>
+				  <td><a href="http://id.loc.gov/authorities/childrensSubjects/sj96005847"> Kon-Tiki expedition, </a> <a href="http://id.loc.gov/authorities/subjects/sh85045361"> Ethnology--Polynesia </a> <a href="http://id.loc.gov/authorities/subjects/sh85096476"> Pacific Ocean </a></td>
+				</tr>
+				<tr>
+				  <th scope="row">3</th>
 				  <td>What type of resource is it?</td>
 				  <td>rdf:type</td>
 				  <td>An immaterial cultural expression</td>
 				</tr>
 				<tr>
-				  <th scope="row">3</th>
+				  <th scope="row">4</th>
 				  <td>What is the resource about?</td>
 				  <td>crm:P129_is_about</td>
 				  <td>The Kon-Tiki expedition</td>
 				</tr>
 				<tr>
-				  <th scope="row">4</th>
+				  <th scope="row">5</th>
 				  <td>What is the resource language?</td>
 				  <td>crm:P72:has_Language</td>
 				  <td>Norwegian</td>
 				</tr>
 				<tr>
-				  <th scope="row">5</th>
+				  <th scope="row">6</th>
 				  <td>What  does the resource convey?</td>
 				  <td>frbroo:crm:P148_has_component</td>
 				  <td>A written text</td>
 				</tr>
 				<tr>
-				  <th scope="row">6</th>
+				  <th scope="row">7</th>
 				  <td>How can we describe or classify our resource?</td>
 				  <td>crm:P2_has_type</td>
 				  <td><a href="http://vocab.getty.edu/page/aat/300202559">Memoirs</a></td>
 				</tr>
 				<tr>
-				  <th scope="row">7</th>
+				  <th scope="row">8</th>
 				  <td>What publication or edition carries this resource?</td>
 				  <td>frbroo:R4_carriers_provided_by</td>
-				  <td>Thor Heyerdhl, Kon-Tiki ekspedisjonen, Oslo: Gyldendal, 1948 </td>
+				  <td>Thor Heyerdhl, <i> Kon-Tiki ekspedisjonen, </i> Oslo: Gyldendal, 1948 </td>
 				</tr>
 				<tr>
-				  <th scope="row">8</th>
+				  <th scope="row">9</th>
 				  <td>What event created the resource?</td>
 				  <td>frbroo:R17_was_created_by</td>
 				  <td>The expression creation</td>
@@ -1103,7 +1097,7 @@
 				  <th scope="row">4</th>
 				  <td>Where was the resource published?</td>
 				  <td>fabio:has_place_of_publication</td>
-				  <td>In Oslo</td>
+				  <td>In <a href="https://www.geonames.org/3143244/oslo.html">Oslo</a></td>
 				</tr>
 				<tr>
 				  <th scope="row">5</th>
@@ -1129,11 +1123,12 @@
 				  <th scope="row">1</th>
 				  <td>Where is the resource kept at?</td>
 				  <td>crm:P50_has_current_keeper</td>
-				  <td>In the Nasjonalbiblioteket of Oslo</td>
+				  <td>In the <a href="https://viaf.org/viaf/169349351/">Nasjonalbiblioteket of Oslo</a></td>
 				</tr>
 			  </tbody>
 			</table>
 	      </div> 
+		  
 		  
 		  <div class="tab-pane fade" id="tab-artifacts" role="tabpanel" aria-labelledby="tab-artifacts">
 			<p> Board game </p>
@@ -1223,7 +1218,7 @@
 				  <th scope="col">#</th>
 				  <th scope="col">Question</th>
 				  <th scope="col">Property</th>
-				  <th scope="col">Class</th>
+				  <th scope="col">Object</th>
 				</tr>
 			  </thead>
 			  <tbody>
@@ -1250,6 +1245,12 @@
 				  <td>What is the technique?</td>
 				  <td>crm:P32_used_general_technique</td>
 				  <td><a href="http://vocab.getty.edu/page/aat/300053013">Pasting</a><a href="http://vocab.getty.edu/page/aat/300053319"> printing <a> <a href="http://vocab.getty.edu/page/aat/300053104"> casting, </a> <a href="http://vocab.getty.edu/page/aat/300053136"> pressing </a> <a href="http://vocab.getty.edu/page/aat/300053019"> riveting, </a> and <a href="http://vocab.getty.edu/page/aat/300235631"> punching </a> </td>
+				</tr>
+				<tr>
+				  <th scope="row">5</th>
+				  <td>Who was the contributor?</td>
+				  <td>dcterms:contributor</td>
+				  <td><a href="http://viaf.org/viaf/108635306">Thor Heyerdahl</a></td>
 				</tr>
 			  </tbody>
 			</table>
@@ -1330,7 +1331,7 @@
 				  <th scope="col">#</th>
 				  <th scope="col">Question</th>
 				  <th scope="col">Property</th>
-				  <th scope="col">Class</th>
+				  <th scope="col">Object</th>
 				</tr>
 			  </thead>
 			  <tbody>
@@ -1356,7 +1357,7 @@
 			</table>
 			<br>
 			
-			<p> Poster </p>
+			<p>Poster</p>
 			<table class="table table-hover">
 			  <thead style="background-color: #FFF68F;">
 				<tr>
@@ -1377,7 +1378,7 @@
 				  <th scope="row">2</th>
 				  <td>How can we describe or classify our resource?</td>
 				  <td>crm:P2_has_type</td>
-				  <td><a href="http://vocab.getty.edu/page/aat/300217912">Film poster</a></td>
+				  <td><a href="http://id.loc.gov/authorities/subjects/sh85048229">Film poster</a></td>
 				</tr>
 				<tr>
 				  <th scope="row">3</th>
@@ -1395,7 +1396,7 @@
 				  <th scope="row">5</th>
 				  <td>What material is it made of??</td>
 				  <td>crm:P45_consists_of</td>
-				  <td>Paper</td>
+				  <td><a href="<a href="http://vocab.getty.edu/page/aat/300217912">Paper</a></td>
 				</tr>
 				<tr>
 				  <th scope="row">6</th>
@@ -1425,7 +1426,7 @@
 				  <th scope="col">#</th>
 				  <th scope="col">Question</th>
 				  <th scope="col">Property</th>
-				  <th scope="col">Class</th>
+				  <th scope="col">Object</th>
 				</tr>
 			  </thead>
 			  <tbody>
@@ -1451,11 +1452,360 @@
 				  <th scope="row">4</th>
 				  <td>What is the technique?</td>
 				  <td>crm:P32_used_general_technique</td>
-				  <td><a href="http://vocab.getty.edu/page/aat/300053272"> Chromolithography </a> </td>
+				  <td><a href="http://vocab.getty.edu/page/aat/300053272"> Chromolithography </a></td>
 				</tr>
 			  </tbody>
 			</table>
-		  </div>  	
+	
+			<p>Photograph</p>
+			<table class="table table-hover">
+			  <thead style="background-color: #FFF68F;">
+				<tr>
+				  <th scope="col">#</th>
+				  <th scope="col">Question</th>
+				  <th scope="col">Property</th>
+				  <th scope="col">Object</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <th scope="row">1</th>
+				  <td>What type of resource is it?</td>
+				  <td>rdf:type</td>
+				  <td>It is an artifact</td>
+				</tr>
+				<tr>
+				  <th scope="row">2</th>
+				  <td>How can we describe or classify our resource?</td>
+				  <td>crm:P2_has_type</td>
+				  <td><a href="http://vocab.getty.edu/page/aat/300128347">Black and write photograph</a></td>
+				</tr>
+				<tr>
+				  <th scope="row">3</th>
+				  <td>What label can be used to describe the resource?</td>
+				  <td>rdf:label</td>
+				  <td>A photo of the Kon-Tiki crew and their families</td>
+				</tr>
+				<tr>
+				  <th scope="row">5</th>
+				  <td>What material is it made of??</td>
+				  <td>crm:P45_consists_of</td>
+				  <td><a hrdf="http://d-nb.info/gnd/4123949-0">Photographic Paper</a></td>
+				</tr>
+				<tr>
+				  <th scope="row">6</th>
+				  <td>Where is it kept?</td>
+				  <td>crm:P50_has_current_keeper</td>
+				  <td><a href="http://viaf.org/viaf/147729237">The Kon-Tiki Museum of Oslo</a></td>
+				</tr>
+				<tr>
+				  <th scope="row">7</th>
+				  <td>What describes it as an archival resource?</td>
+				  <td>rico:isInstantiationOf</td>
+				  <td>An archival record</td>
+				</tr>
+				<tr>
+				  <th scope="row">8</th>
+				  <td>Which event created the resource?</td>
+				  <td>crm:P108_was_produced_by</td>
+				  <td>Production</td>
+				</tr>
+			  </tbody>
+			</table>
+			<br>
+			
+			<p> Archival record </p>
+			<table class="table table-hover">
+			  <thead style="background-color: #FFF68F;">
+				<tr>
+				  <th scope="col">#</th>
+				  <th scope="col">Question</th>
+				  <th scope="col">Property</th>
+				  <th scope="col">Object</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <th scope="row">1</th>
+				  <td>Which symbols uniquely identifies the archival resource?</td>
+				  <td>rico:hasOrHadIdentifier</td>
+				  <td>1983-013-105-0040</td>
+				</tr>
+				<tr>
+				  <th scope="row">2</th>
+				  <td>Who donated the resource to the archive?</td>
+				  <td>rico:hasProvenance</td>
+				  <td><a href="https://viaf.org/viaf/108635306/">Thor Heyerdahl</a></td>
+				</tr>
+			  </tbody>
+			</table>
+			<br>
+			
+			<p> Production </p>
+			<table class="table table-hover">
+			  <thead style="background-color: #FFF68F;">
+				<tr>
+				  <th scope="col">#</th>
+				  <th scope="col">Question</th>
+				  <th scope="col">Property</th>
+				  <th scope="col">Object</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <th scope="row">1</th>
+				  <td>When did the production take place?</td>
+				  <td>crm:P4_has_time-span</td>
+				  <td>1952</td>
+				</tr>
+				<tr>
+				  <th scope="row">2</th>
+				  <td>Where did the production take place?</td>
+				  <td>crm:P7_took_place_at</td>
+				  <td><a href="https://www.geonames.org/2363254/pacific-ocean.html">Pacific Ocean</a></td>
+				</tr>
+				<tr>
+				  <th scope="row">3</th>
+				  <td>Who carried it out?</td>
+				  <td>crm:P14_carried_out_by</td>
+				  <td><a href="https://viaf.org/viaf/108635306/">Thor Heyerdahl,</a><a href="http://viaf.org/viaf/88035539">Bengt Danielsson,</a><a href="http://viaf.org/viaf/79284381">Erik Bryn</a></td>
+				</tr>
+			  </tbody>
+			</table>
+			
+			<p>Map</p>
+			<table class="table table-hover">
+			  <thead style="background-color: #FFF68F;">
+				<tr>
+				  <th scope="col">#</th>
+				  <th scope="col">Question</th>
+				  <th scope="col">Property</th>
+				  <th scope="col">Object</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <th scope="row">1</th>
+				  <td>What type of resource is it?</td>
+				  <td>rdf:type</td>
+				  <td>It is an artifact</td>
+				</tr>
+				<tr>
+				  <th scope="row">2</th>
+				  <td>How can we describe or classify our resource?</td>
+				  <td>crm:P2_has_type</td>
+				  <td><a href="http://vocab.getty.edu/page/aat/300028094">It is a map</a></td>
+				</tr>
+				<tr>
+				  <th scope="row">3</th>
+				  <td>What label can be used to describe the resource?</td>
+				  <td>rdf:label</td>
+				  <td>A map of the Pacific Ocean used for planning the Kon-Tiki expedition</td>
+				</tr>
+				<tr>
+				  <th scope="row">4</th>
+				  <td>What was it used for?</td>
+				  <td>ccrm:P16_was_used_for </td>
+				  <td>The Kon-Tiki expedition</td>
+				</tr>
+				<tr>
+				  <th scope="row">5</th>
+				  <td>Where is it kept?</td>
+				  <td>crm:P50_has_current_keeper</td>
+				  <td><a href="http://viaf.org/viaf/147729237">The Kon-Tiki Museum of Oslo</a></td>
+				</tr>
+				<tr>
+				  <th scope="row">6</th>
+				  <td>What describes it as an archival resource?</td>
+				  <td>rico:isInstantiationOf</td>
+				  <td>An archival record</td>
+				</tr>
+				<tr>
+				  <th scope="row">7</th>
+				  <td>Which event created the resource?</td>
+				  <td>crm:P108_was_produced_by</td>
+				  <td>Production</td>
+				</tr>
+			  </tbody>
+			</table>
+			<br>
+			
+			<p> Archival record </p>
+			<table class="table table-hover">
+			  <thead style="background-color: #FFF68F;">
+				<tr>
+				  <th scope="col">#</th>
+				  <th scope="col">Question</th>
+				  <th scope="col">Property</th>
+				  <th scope="col">Object</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <th scope="row">1</th>
+				  <td>Which symbols uniquely identifies the archival resource?</td>
+				  <td>rico:hasOrHadIdentifier</td>
+				  <td>1983-011-0038-0891</td>
+				</tr>
+				<tr>
+				  <th scope="row">2</th>
+				  <td>Which title identifies the archival record?</td>
+				  <td>rico:Title</td>
+				  <td>8.1 Preparations</td>
+				</tr>				
+				<tr>
+				  <th scope="row">3</th>
+				  <td>Who donated the resource to the archive?</td>
+				  <td>rico:hasProvenance</td>
+				  <td><a href="https://viaf.org/viaf/108635306/">Thor Heyerdahl</a></td>
+				</tr>
+				<tr>
+				  <th scope="row">4</th>
+				  <td>More information about the content of the archival record and its context.</td>
+				  <td>rico:scopeAndContent</td>
+				  <td>The Kon-Tiki Expedition document collections contains all surviving material from the planning and organization of the expedition, as well as all surviving communications after the end of the expedition.</td>
+				</tr>
+			    <tr>
+				  <th scope="row">5</th>
+				  <td>Brief history of the object described by the record.</td>
+				  <td>rico:History</td>
+				  <td>Bjørn Rørholt, who was the expedition secretary in the initial stages of planning, began archiving material in Washington. Gerd Vold Hurum, who replaced Rørholt continued this practice. All documents were transferred to Thor Heyerdahl after the end of the expedition.</td>
+				</tr>
+			    <tr>
+				  <th scope="row">6</th>
+				  <td>Which terms or affect the possibility to consult the resource?</td>
+				  <td>rico:ConditionOfAccess</td>
+				  <td>No conditions governs access to the material. All parts of the Kon-Tiki Expedition document collection is open to the public.</td>
+				</tr>									
+			  </tbody>
+			</table>
+			<br>
+			<p> Production </p>
+			<table class="table table-hover">
+			  <thead style="background-color: #FFF68F;">
+				<tr>
+				  <th scope="col">#</th>
+				  <th scope="col">Question</th>
+				  <th scope="col">Property</th>
+				  <th scope="col">Object</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <th scope="row">1</th>
+				  <td>When did the production take place?</td>
+				  <td>crm:P4_has_time-span</td>
+				  <td>1947</td>
+				</tr>
+				<tr>
+				  <th scope="row">2</th>
+				  <td>Who carried it out?</td>
+				  <td>crm:P14_carried_out_by</td>
+				  <td><a href="https://viaf.org/viaf/108635306/">Thor Heyerdahl</a></td>				  
+				</tr>
+			  </tbody>
+			</table>
+			<br>
+			
+			
+			<p>Stamp</p>
+			<table class="table table-hover">
+			  <thead style="background-color: #FFF68F;">
+				<tr>
+				  <th scope="col">#</th>
+				  <th scope="col">Question</th>
+				  <th scope="col">Property</th>
+				  <th scope="col">Object</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <th scope="row">1</th>
+				  <td>What type of resource is it?</td>
+				  <td>rdf:type</td>
+				  <td>It is an artifact</td>
+				</tr>
+				<tr>
+				  <th scope="row">2</th>
+				  <td>How can we describe or classify our resource?</td>
+				  <td>crm:P2_has_type</td>
+				  <td><a href="http://vocab.getty.edu/page/aat/300217912">Commemorative stamp</a></td>
+				</tr>
+				<tr>
+				  <th scope="row">3</th>
+				  <td>What label can be used to describe the resource?</td>
+				  <td>rdf:label</td>
+				  <td>A Kon-Tiki commemorative stamp</td>
+				</tr>
+				<tr>
+				  <th scope="row">4</th>
+				  <td>What material is it made of??</td>
+				  <td>crm:P45_consists_of</td>
+				  <td><a href="<a href="http://vocab.getty.edu/page/aat/300217912">Paper</a></td>
+				</tr>
+				<tr>
+				  <th scope="row">5</th>
+				  <td>What are the dimensions?</td>
+				  <td>crm:P43_has_dimension</td>
+				  <td>27 x 32 mm</td>
+				</tr>
+				<tr>
+				<tr>
+				  <th scope="row">6</th>
+				  <td>What describes it as an archival resource?</td>
+				  <td>rico:isInstantiationOf</td>
+				  <td>An archival record</td>
+				</tr>
+				<tr>
+				  <th scope="row">7</th>
+				  <td>Which event created the resource?</td>
+				  <td>crm:P108_was_produced_by</td>
+				  <td>Production</td>
+				</tr>
+			  </tbody>
+			</table>
+			<br>
+			<p> Archival record </p>
+			<table class="table table-hover">
+			  <thead style="background-color: #FFF68F;">
+				<tr>
+				  <th scope="col">#</th>
+				  <th scope="col">Question</th>
+				  <th scope="col">Property</th>
+				  <th scope="col">Object</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <th scope="row">1</th>
+				  <td>Which title identifies the archival record?</td>
+				  <td>rico:Title</td>
+				  <td>Kon Tiki</td>
+				</tr>												
+			  </tbody>
+			</table>
+			<br>
+			<p> Production </p>
+			<table class="table table-hover">
+			  <thead style="background-color: #FFF68F;">
+				<tr>
+				  <th scope="col">#</th>
+				  <th scope="col">Question</th>
+				  <th scope="col">Property</th>
+				  <th scope="col">Object</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <th scope="row">1</th>
+				  <td>When did the production take place?</td>
+				  <td>crm:P4_has_time-span</td>
+				  <td>2014-04-28</td>
+				</tr>
+			  </tbody>
+			</table>
+			<br>			
+		  </div>
 		  
 		  
 		  <div class="tab-pane fade" id="tab-creativeworks" role="tabpanel" aria-labelledby="tab-creativeworks">
