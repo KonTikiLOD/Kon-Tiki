@@ -347,7 +347,7 @@ opacity: 10;
   margin-bottom: 50px;
   font-size: 48px;
   font-weight: 700;
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 #hero p {
@@ -488,18 +488,10 @@ section {
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color:  rgba(52,160,164);
+  color: #2D99AB;
   font-family: "Poppins", sans-serif;
 }
 
-.section-title h2::after {
-  content: "";
-  width: 120px;
-  height: 2px;
-  display: inline-block;
-  background: rgba(0,206,209,1);
-  margin: 4px 10px;
-}
 
 .section-title p {
   margin: 0;
