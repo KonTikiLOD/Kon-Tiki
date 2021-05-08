@@ -344,7 +344,7 @@ opacity: 10;
 
 #hero h2 {
   color: rgba(0,206,209,1);
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   font-size: 48px;
   font-weight: 700;
   font-family: "Raleway", sans-serif;
@@ -354,8 +354,10 @@ opacity: 10;
   width: 80%;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
-  margin: 0 auto 30px auto;
+  margin: 0;
+  margin-bottom: 50px;
   color: #fff;
+  font-family: "Raleway", sans-serif;
 }
 
 
@@ -373,11 +375,11 @@ opacity: 10;
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid rgba(52,160,164);
+  border: 2px solid rgba(0,206,209,1);
 }
 
 #hero .btn-get-started:hover {
-  background: rgba(52,160,164);
+  background: rgba(0,206,209,1);
   color: #fff;
   text-decoration: none;
 }
