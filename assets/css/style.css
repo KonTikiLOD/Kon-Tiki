@@ -480,7 +480,7 @@ section {
 }
 
 .section-title {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .section-title h2 {
@@ -567,6 +567,21 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+
+.blockquote {
+	border-left:0.2rem solid rgba(0,206,209,1);
+	font-size:1.1rem;
+	padding-left:1.5rem;
+	border-right:0.2rem solid rgba(0,206,209,1);
+	padding-right:1.5rem;
+}
+
+
+  
+
+
+
 
 /*--------------------------------------------------------------
 # metadatalignment
