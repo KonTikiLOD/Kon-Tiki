@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Raleway", sans-serif;
-  color: #444444;
+  color: #000000;
 }
 
 a {
@@ -532,6 +532,11 @@ section {
   margin-top: 10px;
 }
 
+.about col {
+   align-self: center;
+}
+
+
 .about .content ul i {
   position: absolute;
   left: 0;
@@ -573,8 +578,6 @@ section {
 	border-left:0.2rem solid rgba(0,206,209,1);
 	font-size:1.1rem;
 	padding-left:1.5rem;
-	border-right:0.2rem solid rgba(0,206,209,1);
-	padding-right:1.5rem;
 }
 
 
@@ -808,6 +811,10 @@ section {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   border-radius: 5px;
+}
+
+.items .card p {
+ text-align: justify;
 }
 
 .card:hover {
