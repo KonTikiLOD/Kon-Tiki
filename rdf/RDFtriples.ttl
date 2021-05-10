@@ -17,9 +17,10 @@
 @prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
 @prefix wd: <http://www.wikidata.org/entity/>.
 @prefix dbo: <https://dbpedia.org/ontology/>.
-@prefix lccn:<https://id.loc.gov/authorities/names/>.
+@prefix lccn: <https://id.loc.gov/authorities/names/>.
 
 <activity/Kontiki-Expedition> a crm:E7_Activity;
+		rdfs:label "Kon-Tiki Expedition"@en;
     	crm:P2_has_type wd:Q2401485; #expedition
     	crm:P14_carried_out_by <person/Thor-Heyerdahl>, 
     						   <group/Kon-Tiki-Crew>;
@@ -36,8 +37,9 @@
     	skos:exactMatch viaf:131899688,
     					lccn:n50061935;
         skos:broader crm:E5_Event.
+		
 <person/Thor-Heyerdahl> a crm:E39_Actor;
-        rdfs:label "Thor Heyerdahl"^^xsd:string;
+        rdfs:label "Kon-Tiki Raft"@en;
 		foaf:givenName "Thor"^^xsd:string;
 		foaf:familyName "Heyerdahl"^^xsd:string;
 	    foaf:gender "Male"^^xsd:string;
@@ -51,8 +53,9 @@
         crm:P107:is_current_or_former_member_of <group/Kon-Tiki-crew>;  
 		dbo:wikiPageExternalLink <https://it.wikipedia.org/wiki/Thor_Heyerdahl>;
         owl:sameAs viaf:108635306.
+		
 <artefact/Raft> a crm:E22_Human-Made_Object;
-        rdfs:label "Thor Heyerdahl";
+        rdfs:label "Thor Heyerdahl"^^xsd:string;
         crm:P2_has_Type <http://vocab.getty.edu/page/aat/300212835>; #Raft
 		crm:P16_was_used_for <activity/Kontiki-Expedition>;
 		crm:P43_has_dimension "914.4x457.2"^^xsd:string;
@@ -60,28 +63,31 @@
 		crm:P45_consists_of <http://vocab.getty.edu/page/aat/300012512>, #balsa
 							<http://vocab.getty.edu/page/aat/300012234>, #mangrovia
 							<http://vocab.getty.edu/page/aat/300011873>; #bamboo
-        crm:P46_is_composed_of wd:Q193472, #trunks
-							   wd:Q331744,  #mast
-							   wd:Q3649129, #cabin
-								<http://vocab.getty.edu/page/aat/300395477>, #thatched roof,
-								<http://vocab.getty.edu/page/aat/300185694>; #sails
+        crm:P46_is_composed_of wd:Q193472,#trunks
+							   wd:Q331744,#mast
+							   wd:Q3649129,#cabin
+							   <http://vocab.getty.edu/page/aat/300395477>, #thatched roof,
+							   <http://vocab.getty.edu/page/aat/300185694>; #sails
 		crm:P108_was_produced_by <production/artefact/Raft>;
 		rdfs:seeAlso <https://en.wikipedia.org/wiki/Pre-Columbian_rafts>.
+		
 <production/artefact/Raft> a crm:E12_Production;
 		crm:P4_has_time-span "1947"^^xsd:gYear;	
 		crm:P7_took_place_at <place/Callao>;
 		crm:P14_carried_out_by <group/Kon-Tiki-Crew>.
+		
 <place/Callao> a crm:E53_Place;
 		gn:name "Callao"^^xsd:string;
-		gn:countryCode 'PE'^^xsd:string;
+		gn:countryCode "PE"^^xsd:string;
 		gn:locationMap <https://www.geonames.org/3946083/callao.html>;
 		wgs84_pos:lat "-12.05659"^^xsd:float;
 		wgs84_pos:long "-77.11814"^^xsd:float;
 		gn:population "813264"^^xsd:integer;
 		skos:exactMatch gn:4033730. 
+		
 <artefact/Boardgame> a crm:E22_Human-Made_Object;
 		crm:P2_has_type <http://vocab.getty.edu/page/aat/300217912>;
-		rdf:label 'The Kon-Tiki Boardgame'@en;
+		rdfs:label "The Kon-Tiki Boardgame"@en;
 		schema:isBasedOn <text/kon-tiki-ekspedisjonen>;
 		crm:P45_consists_of <http://vocab.getty.edu/page/aat/300014224>, #cardboard
 							<http://vocab.getty.edu/page/aat/300014109>, #paper
@@ -94,6 +100,7 @@
 		crm:P43_has_dimension '28.5x45x3.5'^^xsd:string;
 		crm:P50_has_current_keeper gn:12041550; #Spielzeugmuseum Nürnberg
 		crm:P108_was_produced_by <production/artefact/Boardgame>.
+		
 <production/artefact/Boardgame> a crm:E12_Production;
 		crm:P4_has_time-span 'from 1967 to 1971'^^xsd:string;
 		crm:P7_took_place_at gn:2921044; #Germany
